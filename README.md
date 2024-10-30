@@ -12,8 +12,14 @@ shell genes: genes present not in all but at least in two genomes
 cloud genes: genes present in only one genome, single copy or multiple copies
 
 # Example command
+```
 run orthofinder
+```
+
+```
 cat Orthogroups.tsv Orthogroups_Unassigned.tsv > Orthogroups.combined.tsv
+```
 
+```
 python ./calc_csc_OG.py
-
+```
