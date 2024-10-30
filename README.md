@@ -7,7 +7,7 @@ pandas, python3
 # Definitions
 core genes: genes present in all genomes in any ratio (N:N)
 
-shell genes: genes present all but one genome
+shell genes: genes present not in all but at least in two genomes
 
 cloud genes: genes present in only one genome, single copy or multiple copies
 
